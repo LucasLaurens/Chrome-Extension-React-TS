@@ -4,12 +4,12 @@
   "name": "Chrome extension",
   "description": "Chrome extension is very cool",
   "version": "1.0.0",
-  "permissions": ["activeTab", "background", "declarativeContent"],
+  "permissions": ["activeTab", "background", "declarativeContent", "https://www.google.com/*"],
   "icons": {
     "192": "logo192.png"
   },
   "background": {
-    "scripts": ["js/scripts/background.js"]
+    "scripts": ["js/background.js"]
   },
   "page_action": {
     "default_icon": {
