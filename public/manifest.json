@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "short_name": "Chrome extension",
+  "name": "Chrome extension",
+  "description": "Chrome extension is very cool",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "background", "declarativeContent"],
+  "icons": {
+    "192": "logo192.png"
+  },
+  "background": {
+    "scripts": ["js/scripts/background.js"]
+  },
+  "page_action": {
+    "default_icon": {
+      "192": "logo192.png"
+    },
+    "default_title": "Chrome extension",
+    "default_popup": "index.html"
+  }
+}
